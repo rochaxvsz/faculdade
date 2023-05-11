@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital@1&display=swap');
+
+header{
+    background-color: rgb(145, 74, 46);
+    line-height: 100px;
+    text-align: center;
+}
+header h1{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Kanit', sans-serif;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+h3{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+ul{
+    margin: 20px;
+    display: flex;
+}
+#primeiro ul li{
+    border: 1px solid white;
+    margin: auto;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+}
+ul li{
+    color: white;
+    display: block;
+}
+.segundo{
+    display: block;
+    list-style: none;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: white;
+}
+img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+footer{
+    background-color: rgb(145, 74, 46);
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media (max-width:800px){
+    ul{
+        flex-direction: column;
+    }
+}
